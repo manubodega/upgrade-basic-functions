@@ -5,7 +5,7 @@ function average(param) {
     for (var i = 0; i<param.length; i++){
         total += param[i]
     }
-    media = total / (param.length - 1)
+    media = total / (param.length)
     return(media)
 }
 var a = average(numbers)
